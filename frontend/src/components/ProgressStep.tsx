@@ -15,9 +15,9 @@ export function ProgressStep({ title, status, substeps, className = '' }: Progre
       case 'pending':
         return <Clock className="w-6 h-6 text-[#8B7A87]" />;
       case 'running':
-        return <Loader2 className="w-6 h-6 text-[#351431] animate-spin" />;
+        return <Loader2 className="w-6 h-6 text-[#0c3555] animate-spin" />;
       case 'complete':
-        return <CheckCircle2 className="w-6 h-6 text-[#351431]" />;
+        return <CheckCircle2 className="w-6 h-6 text-[#0c3555]" />;
     }
   };
 
@@ -26,9 +26,9 @@ export function ProgressStep({ title, status, substeps, className = '' }: Progre
       case 'pending':
         return 'text-[#8B7A87]';
       case 'running':
-        return 'text-[#351431]';
+        return 'text-[#0c3555]';
       case 'complete':
-        return 'text-[#351431]';
+        return 'text-[#0c3555]';
     }
   };
 
@@ -37,14 +37,14 @@ export function ProgressStep({ title, status, substeps, className = '' }: Progre
       case 'pending':
         return 'bg-white';
       case 'running':
-        return 'bg-[#F0D1DA]';
+        return 'bg-[#1d9e99]';
       case 'complete':
-        return 'bg-[#F0D1DA]';
+        return 'bg-[#1d9e99]';
     }
   };
 
   return (
-    <div className={`${getBgColor()} rounded-[16px] p-6 clara-shadow-card transition-all ${className}`}>
+    <div className={`${getBgColor()} rounded-[16px] p-6 aneya-shadow-card transition-all ${className}`}>
       <div className="flex items-start gap-4">
         {getIcon()}
         <div className="flex-1">

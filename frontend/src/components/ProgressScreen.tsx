@@ -72,7 +72,7 @@ export function ProgressScreen({ onComplete }: ProgressScreenProps) {
   return (
     <div className="min-h-screen bg-white">
       <div className="max-w-3xl mx-auto px-6 py-12">
-        <h1 className="text-[32px] leading-[38px] text-[#351431] mb-2">
+        <h1 className="text-[32px] leading-[38px] text-[#0c3555] mb-2">
           Analysing Consultation
         </h1>
         <p className="text-[17px] leading-[26px] text-[#5C3E53] mb-12">
@@ -96,9 +96,9 @@ export function ProgressScreen({ onComplete }: ProgressScreenProps) {
           </p>
 
           {/* Real-time processing indicator */}
-          <div className="flex items-center justify-center gap-3 mt-6 p-4 bg-[#F0D1DA] rounded-[10px]">
-            <Loader2 className="w-5 h-5 text-[#351431] animate-spin" />
-            <span className="text-[15px] leading-[22px] text-[#351431] font-medium">
+          <div className="flex items-center justify-center gap-3 mt-6 p-4 bg-[#1d9e99] rounded-[10px]">
+            <Loader2 className="w-5 h-5 text-[#0c3555] animate-spin" />
+            <span className="text-[15px] leading-[22px] text-[#0c3555] font-medium">
               Processing with real-time AI analysis...
             </span>
           </div>

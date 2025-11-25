@@ -111,7 +111,7 @@ export default function App() {
   return (
     <div className="min-h-screen bg-white">
       {/* Header */}
-      <header className="bg-[#351431] py-4 px-6 clara-shadow-card sticky top-0 z-30">
+      <header className="bg-[#0c3555] py-4 px-6 aneya-shadow-card sticky top-0 z-30">
         <div className="max-w-7xl mx-auto">
           <h1 className="text-white text-[28px]" style={{ fontFamily: 'Georgia, serif' }}>
             clara
